@@ -1,10 +1,10 @@
 import { Inter } from "next/font/google";
-import "../_styles/globals.css";
+import "./_styles/globals.css";
 import dynamic from 'next/dynamic';
-import Footer from "@/components/Footer/Footer";
+import Footer from "./_components/Footer/Footer";
 import { ReactNode } from "react";
 
-const Header = dynamic(() => import('@/components/Header/Header'), { ssr: true });
+const Header = dynamic(() => import('./_components/Header/Header'), { ssr: true });
 
 const inter = Inter({ subsets: ["latin"] });
 

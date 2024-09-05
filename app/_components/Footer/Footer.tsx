@@ -1,10 +1,10 @@
-import logoBig from "@/public/images/rmc-logo.svg";
-import telegram from "@/public/svg/footer/telegram.svg";
-import facebook from "@/public/svg/footer/facebook.svg";
-import instagram from "@/public/svg/footer/instagram.svg";
-import youtube from "@/public/svg/footer/whatsapp.svg";
-import arrowRight from "@/public/svg/arrow-right-red.svg";
-import resultLogo from "@/public/images/footer/result-logo.png";
+import logoBig from "../../../public/images/rmc-logo.svg";
+import telegram from "../../../public/svg/footer/telegram.svg";
+import facebook from "../../../public/svg/footer/facebook.svg";
+import instagram from "../../../public/svg/footer/instagram.svg";
+import youtube from "../../../public/svg/footer/whatsapp.svg";
+import arrowRight from "../../../public/svg/arrow-right-red.svg";
+import resultLogo from "../../../public/images/footer/result-logo.png";
 import Link from "next/link";
 import Image from "next/image";
 
